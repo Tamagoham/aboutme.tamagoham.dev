@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65ee3231-74e9-456d-a29c-9182333b0d7f/deploy-status)](https://app.netlify.com/sites/loving-bhabha-f594d3/deploys)
 # tamagoham.dev
 
 ## Build Setup
