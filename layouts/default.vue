@@ -37,22 +37,32 @@
     -->
 
     <v-main class="grey lighten-3">
-        <Particles
-                id="tsparticles"
-                :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
-                url="./particlesjs-config.json"
-        />
-            <v-sheet
-              min-height="100%"
-            >
-              <nuxt />
-            </v-sheet>
-
-
+      <Particles
+        id="tsparticles"
+        :particles-init="particlesInit"
+        :particles-loaded="particlesLoaded"
+        url="./particlesjs-config.json"
+      />
+      <v-sheet
+        min-height="100%"
+      >
+        <nuxt />
+      </v-sheet>
     </v-main>
   </v-app>
 </template>
+
+<script>
+import Vue from 'vue'
+import Particles from 'particles.vue'
+Vue.use(Particles)
+
+export default {
+  data: () => ({
+    links: ['ホーム', 'ブログ', 'Twitter', 'GitHub']
+  })
+}
+</script>
 
 <style>
 #tsparticles canvas {
@@ -62,15 +72,3 @@
   z-index: 0;
 }
 </style>
-
-<script>
-import Vue from "vue";
-import Particles from "particles.vue";
-Vue.use(Particles);
-
-export default {
-  data: () => ({
-    links: ["ホーム", "ブログ", "Twitter", "GitHub"],
-  }),
-};
-</script>
