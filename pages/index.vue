@@ -25,10 +25,10 @@
             </v-card-subtitle>
 
             <v-card-text class="text-center text-h6">
-              Ritsumeikan University - Information Science and Engineering
+              Ritsumeikan University - Information Science and Engineering<br>
+              立命館大学 情報理工学部
             </v-card-text>
-
-            <v-divider class="mx-4"></v-divider>
+            <v-divider class="mx-4 mt-md-5 mb-md-5"></v-divider>
 
             <v-card-title class="justify-center">Follow Me!!</v-card-title>
 
@@ -78,7 +78,7 @@
                 </v-col>
               </v-row>
             </v-card-text>
-            <v-divider class="mx-4"></v-divider>
+            <v-divider class="mx-4 mt-md-7 mb-md-7"></v-divider>
             <v-card-title class="justify-center">Skills</v-card-title>
 
             <v-card-text class="text-center text-h6">
@@ -229,10 +229,10 @@
                 </v-col>
               </v-row>
             </v-card-text>
-            <v-divider class="mx-4"></v-divider>
+            <v-divider class="mx-4 mt-md-5 mb-md-5"></v-divider>
 
             <v-card-title class="justify-center">Thank you!</v-card-title>
-            <v-divider class="mx-4"></v-divider>
+            <v-divider class="mx-4 mt-md-5 mb-md-5"></v-divider>
           </v-card>
         </v-col>
       </v-container>
